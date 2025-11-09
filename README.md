@@ -1,47 +1,50 @@
 # 🏥 Hospital Patient Records Management System  
-**Mini Project - Java | JDBC | SQLite | Swing GUI**
+
+### 💡 Overview  
+The **Hospital Patient Records Management System** is a Java-based desktop application designed to streamline hospital record keeping.  
+Built using **Java Swing** for the frontend and **SQLite** as the backend database, this project enables secure and efficient management of patient data — including name, age, and disease details.  
+
+This system demonstrates how **Object-Oriented Programming (OOP)** concepts, **exception handling**, and **database connectivity (JDBC)** can be integrated to build a robust and interactive healthcare solution.  
 
 ---
 
-## 📘 Overview  
-The **Hospital Patient Records Management System** is a **Java-based desktop application** that efficiently manages patient data, hospital records, and database operations.  
-This project demonstrates how **Object-Oriented Programming (OOP)** concepts, **Java Swing**, and **JDBC** integration can be combined to create a structured and interactive system for real-world healthcare data management.
-
-The system allows hospital staff to:
-- Add, view, and manage patient records  
-- Store data securely in an SQLite database  
-- Perform automatic backups using multithreading  
-- Handle errors gracefully through custom exception classes  
-
-It provides a **user-friendly interface** while maintaining robust backend performance and data consistency.
+### ⚙️ Tech Stack  
+- **Programming Language:** Java  
+- **Frontend:** Java Swing (GUI)  
+- **Backend:** SQLite Database  
+- **Architecture:** Modular MVC Design  
+- **IDE Used:** Eclipse  
 
 ---
 
-## 🧠 Key Features  
-✅ Add, update, and delete patient details  
-✅ Real-time record saving with JDBC (SQLite)  
-✅ GUI built using Java Swing for simplicity  
-✅ Exception handling for data safety  
-✅ Threaded backup manager for data reliability  
-✅ Modular OOP architecture (clean and reusable code)
-
-
-🧠 Future Enhancements
-
-Integration with cloud databases
-Multi-user login system
-Patient search and filter features
-Advanced analytics dashboard
-
-----
-👨‍💻 Developed by
-
-Ajay Singh R J
-B.Tech Artificial Intelligence & Data Science (AIDS-A)
-Rajalakshmi Institute of Technology
+### 🧩 Project Modules  
+| Module | Description |
+|--------|-------------|
+| **1. UI Package (ui)** | Handles user interface and user input components using Java Swing (`MainFrame.java`). |
+| **2. DAO Package (dao)** | Manages database operations and SQL connections (`DatabaseManager.java`, `GenericDAO.java`). |
+| **3. Model Package (model)** | Contains data classes like `Patient.java`, representing the structure of patient information. |
+| **4. Service Package (service)** | Manages the logic for saving and retrieving records (`DataHandler.java`, `ThreadedBackupManager.java`). |
+| **5. Network Package (network)** | Provides optional networking functionality (`Client.java`, `Server.java`). |
+| **6. Main Application (mainapp)** | Launches the system (`App.java`) and integrates all modules. |
+| **7. Exception Handling (exceptions)** | Custom error handling using `DataNotFoundException.java`. |
 
 ---
 
+### 💻 Features  
+✅ Add new patient records (Name, Age, Disease)  
+✅ Store records securely in an SQLite database  
+✅ View all patients in a formatted table view  
+✅ Clear all records with a single click  
+✅ Automatic backup creation  
+✅ Custom exception handling for missing or invalid data  
+✅ User-friendly and responsive GUI  
 
+---
 
-
+### 🧠 Future Enhancements  
+🚀 Integration with cloud-based databases like **Supabase** or **Firebase**  
+🔐 Add user authentication (Admin / Staff Login)  
+📊 Include data visualization for patient trends  
+🧾 Generate printable patient reports  
+☁️ Deploy the system as a web-based application  
+📱 Create
