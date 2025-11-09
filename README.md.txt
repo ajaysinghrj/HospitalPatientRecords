@@ -27,7 +27,6 @@ It provides a **user-friendly interface** while maintaining robust backend perfo
 
 ---
 
-## 🏗️ System Architecture  
 
-The project is structured into multiple **Java packages** to ensure modular design and clear separation of concerns:
+
 
