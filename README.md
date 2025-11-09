@@ -25,6 +25,21 @@ It provides a **user-friendly interface** while maintaining robust backend perfo
 ✅ Threaded backup manager for data reliability  
 ✅ Modular OOP architecture (clean and reusable code)
 
+
+🧠 Future Enhancements
+
+Integration with cloud databases
+Multi-user login system
+Patient search and filter features
+Advanced analytics dashboard
+
+----
+👨‍💻 Developed by
+
+Ajay Singh R J
+B.Tech Artificial Intelligence & Data Science (AIDS-A)
+Rajalakshmi Institute of Technology
+
 ---
 
 
